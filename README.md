@@ -28,3 +28,8 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This program follows a tutorial in creating an app using Electron. Like your OS's Task Manager, this app pulls data from your computer about your CPU, RAM, and storage space and creates simple graphs that show updates in real-time.
+
+The app itself is built using React and TypeScript. The `dist` folder only contains an executable for Windows, although the ability to create builds for Linux and Mac are present as well.
